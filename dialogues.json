@@ -1,0 +1,11 @@
+{ 
+    "user" : "<user>",
+    "missing_username" : "Please enter a username after \"!ping\"",
+    "too_many_words" : "Too many things! Only send \"!ping\" and a username",
+    "starting_ping" : "ABOUT TO PING <user>! to shut me off, say \"!stop <user>\"",
+    "not_in_server" : "<user> is not in this server :(",
+    "game_time" : "GAME TIME <user> (SAY \"HERE\" TO TURN ME OFF)",
+    "timed_out" : "heck, pinging timed out :(",
+    "here" : "WELCOME, THANKS FOR COMING",
+    "force_stopped" : "heck, pinging was force stopped :("
+}
