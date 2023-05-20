@@ -1,0 +1,7 @@
+Hi! I'm PingerBot! I'm a lovely little bot that can annoy you to all hell on command!
+To activate me, just create a channel called "#ping" and typing "!ping <username>"!
+By default, I timeout after 2 minutes. To change that, type in "!maxtime <number of minutes>"! But keep it between 1 minute and 15 minutes!
+I also have a default ping message before pinging someone! To change that, type in "!pingmsg <new message>"! But keep it under 200 characters!
+I also have a default "im here!" message when someone arrives! To change that, type in "!heremsg <new message>"! But keep it under 200 characters!
+If I'm pinging someone, you can stop me from pinging them by either having them say "here" or by someone else saying "!stop <pinged username>"!
+ENJOY MY CHAOS

@@ -7,8 +7,8 @@ class PingGroup:
     def __init__(self):
         self.pingers = dict()
 
-    async def add_pinger(self, guild, channel, target_user, timeout=2):
-        self.pingers[target_user] = Pinger(guild, channel, target_user, timeout)
+    async def add_pinger(self, guild, channel, target_user):
+        self.pingers[target_user] = Pinger(guild, channel, target_user)
         await self.pingers[target_user].start_pinging()
     
     def user_arrived(self, target_user):
