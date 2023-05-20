@@ -25,6 +25,9 @@ class Bot(discord.Client):
         if message.author == self.user:
             return
 
+        elif message.channel.name != "ping":
+            await message.channel.send(dialogs["wrong_channel"])
+
         elif message.content.startswith("!ping"):
             content = message.content.split(' ')
             if len(content) < 2:
@@ -38,7 +41,7 @@ class Bot(discord.Client):
                                                   dialogs["starting_ping"]))
                 await self.ping_group.add_pinger(message.guild, message.channel,
                                                 target_user)
-        
+
         elif message.content.startswith("!stop"):
             content = message.content.split(' ', 2)
             cmd = content[0]
