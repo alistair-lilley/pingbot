@@ -1,3 +1,9 @@
 # environments
 .env
 **/.venv
+
+# pycache
+**/__pycache__/
+
+# custom dialogues for privacy
+custom_dialogs.json

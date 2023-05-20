@@ -1,12 +1,23 @@
 {
+    "defaults" : {
+        "timeout" : 2,
+        "pingmsg" : "GAME TIME",
+        "heremsg" : "WELCOME, THANKS FOR COMING"
+    },
     "user" : "<user>",
+    "ping_message" : " <user> (SAY \"HERE\" TO TURN ME OFF)",
     "missing_username" : "Please enter a username after \"!ping\"",
     "too_many_words" : "Too many things! Only send \"!ping\" and a username",
     "starting_ping" : "ABOUT TO PING <user>! to shut me off, say \"!stop <user>\"",
     "not_in_server" : "<user> is not in this server :(",
-    "game_time" : "GAME TIME <user> (SAY \"HERE\" TO TURN ME OFF)",
     "timed_out" : "heck, pinging timed out :(",
-    "here" : "WELCOME, THANKS FOR COMING",
     "force_stopped" : "heck, pinging was force stopped :(",
-    "wrong_channel" : "Sorry, this bot will only work in a channel called #ping!"
+    "wrong_channel" : "Sorry, this bot will only work in a channel called \"#ping!\"",
+    "shutting_down" : "father nooooooooooooooooooooooooooooooo :(",
+    "maxtime_changed" : "max time has been changed!",
+    "message_changed" : "message has been changed!",
+    "message_too_long" : "That message is too long!! keep it under 500 characters",
+    "no_timeout_value" : "You didnt enter a timeout value!",
+    "timeout_must_be_int" : "Enter only a whole number of minutes for timeout!",
+    "too_long_or_short" : "Thats too much/too little time! Enter something between 1 and 15!"
 }
